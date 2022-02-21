@@ -37,9 +37,7 @@ correct_answer = r.randint(1,100)
 difficulty = input("Choose difficulty \"easy\" or \"hard\": ").lower()
 
 if difficulty == "easy":
-    lives = 10
-    logic(lives)
+    logic(10)
 
 elif difficulty == "hard":
-    lives = 5
-    logic(lives)
+    logic(5)
